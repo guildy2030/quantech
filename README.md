@@ -1,7 +1,7 @@
  <!doctype html>
 <html lang="it">
 <head>
-	<title>Basic Landing Page</title>
+	<title>Guildy</title>
 	<meta name="description" content="Our landing page!">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">
