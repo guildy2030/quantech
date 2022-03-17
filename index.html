@@ -30,5 +30,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<p>This is our only subscription method! Try it for free during our beta<b></b></p>
 		<a class="btn" href="https://guildy2030.github.io/quantech/thanks">Join now</a></p>
 	</div>
+	
+	// Event on user in-page action
+	<a class="btn" onclick="trackDonation()" href="#">Become a lead!</a>
+	<script>
+		function trackDonation() {
+			dataLayer.push(
+				{'event':'donation'}
+			);
+		}
+	</script>
 </body>
 </html>
