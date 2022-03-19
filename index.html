@@ -41,7 +41,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		    <input type="hidden" id="campaign" name="campaign" />
 		    <input type="submit" value="submit">
 		</form>
-	
-	
+
+<script type="text/javascript">
+  urlParams = new URLSearchParams(window.location.search);
+  document.querySelector('#source').value = urlParams.get('utm_source');
+  document.querySelector('#medium').value = urlParams.get('utm_medium');
+  document.querySelector('#campaign').value = urlParams.get('utm_campaign');
+</script>
 </body>
 </html>
